@@ -66,3 +66,35 @@
 //      }
 //    }
 //  }
+
+
+//import net.sourceforge.tess4j.Tesseract;
+//import net.sourceforge.tess4j.TesseractException;
+//import org.apache.commons.io.FileUtils;
+//
+//import java.io.File;
+//import java.net.URL;
+//
+//public class OCR {
+//  public static void main(String[] args) {
+//    try {
+//      // Initialize Tesseract
+//      Tesseract tesseract = new Tesseract();
+//      tesseract.setDatapath("<path to tessdata directory>");
+//
+//      // Read the .jpg file from the website
+//      URL url = new URL("<url of .jpg file>");
+//      File imageFile = new File("image.jpg");
+//      FileUtils.copyURLToFile(url, imageFile);
+//
+//      // Perform OCR on the image file
+//      String result = tesseract.doOCR(imageFile);
+//      System.out.println(result);
+//
+//    } catch (TesseractException e) {
+//      System.err.println(e.getMessage());
+//    } catch (Exception e) {
+//      e.printStackTrace();
+//    }
+//  }
+//}
