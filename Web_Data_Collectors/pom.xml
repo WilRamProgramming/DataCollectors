@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Web_Data_Collectors</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>4.5.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.5</version>
+        </dependency>
+    </dependencies>
+<!--    <plugin>-->
+<!--        <groupId>org.apache.felix</groupId>-->
+<!--        <artifactId>maven-bundle-plugin</artifactId>-->
+<!--        <extensions>true</extensions>-->
+<!--        <configuration>-->
+<!--            <instructions>-->
+<!--                <Import-Package>-->
+<!--                    !org.apache.log,-->
+<!--                    !org.apache.avalon.framework.logger-->
+<!--                </Import-Package>-->
+<!--                <Embed-Dependency>*;-->
+<!--                    |opencsv-->
+<!--                </Embed-Dependency>-->
+<!--                <Embed-Transitive>true</Embed-Transitive>-->
+<!--            </instructions>-->
+<!--        </configuration>-->
+<!--    </plugin>-->
+</project>
