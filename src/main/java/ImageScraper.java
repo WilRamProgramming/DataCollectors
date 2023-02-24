@@ -39,7 +39,7 @@ public class ImageScraper {
     }
   }
 }
-//  //   how to loop through an undetermined amount of rows  still working on this
+//     how to loop through an undetermined amount of rows  still working on this
 //      String[] lines = imageText.split("\\r?\\n");
 //      String columnName = lines[0];
 //      List<String> rowValues = new ArrayList<String>();
